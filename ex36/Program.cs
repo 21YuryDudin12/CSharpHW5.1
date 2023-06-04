@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Введите размер массива");
+﻿//Задайте одномерный массив, заполненный случайными числами.
+//Найдите сумму элементов, стоящих на нечётных позициях
+
+Console.WriteLine("Введите размер массива");
 int s = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите минимальную границу диапазона");
 int min = int.Parse(Console.ReadLine());
